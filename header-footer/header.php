@@ -9,8 +9,16 @@
 </head>
 <script type="javascript" src="../css-js/script.js"></script>
 <body>
-    <div class="hello">
-        <p>HEYYYYY</p>
+    <div class="entete">
+        <nav class="navi">
+            <ul>
+                <li><a href="../equipement.php"></a></li>
+                <li><a href="../equipement.php"></a></li>
+                <li><a href="../equipement.php"></a></li>
+                <li><a href="../equipement.php"></a></li>
+            </ul>
+
+        </nav>
     </div>
 </body>
 </html>
