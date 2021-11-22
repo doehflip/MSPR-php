@@ -53,10 +53,7 @@ div.entete{
 
 }
 
-/* CSS index */
-@media screen {
-    
-}
+/* CSS index (HP) */
 .image-fond{
     width: 100%;
 }
@@ -65,15 +62,18 @@ h1{
     font-size: 21px;
     
 }
-.container-main{
-    display: flex;
-}
+
 .test{
     display: flex;
-    vertical-align: middle;
     position: absolute; 
-    padding: 0 22.5% 0 22.5%;
+    margin: 20% 30%;
     white-space: nowrap;
     text-shadow: 1px 1px white;
-
+    background-color: white;   
+}
+.cta-hp{
+    position: absolute;
+    display: flex;
+    margin: 32% 44%;
+    width: 10%;
 }
