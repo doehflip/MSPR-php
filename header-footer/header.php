@@ -22,8 +22,8 @@
                 <ul>
                     <li><a href="./index.php">Accueil</a></li>
                     <li><a href="./equipement.php">Equipements</a></li>
-                    <li><a href="./agences.php">Nos agences</a></li>
-                    <li><a href="./demande-reserv.php">Demande de réservation</a></li>
+                    <li><a href="./agences.php">Agences</a></li>
+                    <li><a href="./demande-reserv.php">Réserver</a></li>
                 </ul>
             </nav>
         </div>

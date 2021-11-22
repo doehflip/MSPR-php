@@ -3,6 +3,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
+/* CSS HEADER */
 div.entete{
     display: flex;
     flex-flow: row nowrap;
@@ -49,5 +50,30 @@ div.entete{
 .logo p{
     margin-top: 0px;
     margin-bottom: 1%;
+
+}
+
+/* CSS index */
+@media screen {
+    
+}
+.image-fond{
+    width: 100%;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 21px;
+    
+}
+.container-main{
+    display: flex;
+}
+.test{
+    display: flex;
+    vertical-align: middle;
+    position: absolute; 
+    padding: 0 22.5% 0 22.5%;
+    white-space: nowrap;
+    text-shadow: 1px 1px white;
 
 }
