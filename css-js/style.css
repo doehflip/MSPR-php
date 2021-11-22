@@ -1,3 +1,53 @@
-.hello p{
-    font: 80px yellow;
+body{
+    margin: 0px;
+    padding: 0px;
 }
+
+/* CSS du Footer*/
+div.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #C1B196;
+    width: 100%;
+}
+div.footer a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+div.droite p{
+    padding: 0;
+    height: 50%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+span{
+    font-weight:900;
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+div.reseaux {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+div.reseaux img{
+    width:30px;
+    padding: 10px;
+}
+div.reseaux a:hover{
+    filter: invert(1); 
+    -webkit-filter: invert(1);
+}
+/* Fin du CSS Footer*/
+
+/* CSS page Equipements*/
+
+
+
+
