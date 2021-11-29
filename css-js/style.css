@@ -1,4 +1,61 @@
+
+/* Formulaire */
+body {
+  font-family:"roboto",sans-serif;
+  font-size:90%;
+  }
+ form {
+  background-color:#fffbfb;
+  padding:10px;
+  width:280px;
+  line-height:35px;
+  }
+ fieldset {
+  padding:0 20px 20px 20px;
+  margin-bottom:10px;
+  border:1px solid #000000;
+  }
+ legend {
+  color:#bfe1f8;
+  font-weight:bold
+  }
+ label {
+  margin-top:10px;
+  display:block;
+  }
+ label.inline {
+  display:inline;
+  margin-right:50px;
+  }
+ input, textarea, select, option {
+  background-color:#bfe1f8;
+  }
+ input, textarea, select {
+  padding:3px;
+  border:1px solid #bfe1f8;
+  border-radius:5px;
+  width:200px;
+  box-shadow:1px 1px 2px #bfe1f8 inset;
+  }
+ select {
+  margin-top:10px;
+  }
+ input[type=radio] {
+  background-color:transparent;
+  border:none;
+  width:10px;
+  }
+ input[type=submit], input[type=reset] {
+  width:100px;
+  margin-left:5px;
+  box-shadow:1px 1px 1px #bfe1f8;
+  cursor:pointer;
+
+  }
+
 body{
+    margin: 0px;
+    padding: 0px;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -52,6 +109,134 @@ div.entete{
     margin-bottom: 1%;
 
 }
+
+
+/* CSS de la page équipement */
+h1{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(114, 71, 51);
+}
+p.titre_tableau_stock{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(173, 82, 40);
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: rgb(173, 82, 40);
+    font-weight: 550;
+    text-align: center;
+    margin-top: 30px;
+}
+div.lieu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+div.palavas, div.carnon{
+    border: solid 4px rgb(114, 71, 51);
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif; 
+    color: black;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+button.reserver{
+    background-color: burlywood;
+    font-size: 20px;
+    color:rgb(114, 71, 51);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.image img{
+    width: 50%;
+}
+div.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image h4{
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+}
+.image p{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+@media screen and (max-width : 400px ){
+    .image img{
+        width: 100%;
+    }
+    .image p{
+        font-size: 18px;
+    }
+    .image h4{
+        font-size: 24px;
+    }
+}
+/* Fin CSS de la page équipement */
+
+/* CSS du Footer */
+div.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #C1B196;
+    width: 100%;
+}
+div.footer a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+div.droite p{
+    padding: 0;
+    height: 50%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+span{
+    font-weight:900;
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+div.reseaux {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+div.reseaux img{
+    width:30px;
+    padding: 10px;
+}
+div.reseaux a:hover{
+    filter: invert(1); 
+    -webkit-filter: invert(1);
+}
+
+/* Fin du CSS Footer */
+
+
+
+
 
 /* CSS index (HP) */
 .image-fond{
