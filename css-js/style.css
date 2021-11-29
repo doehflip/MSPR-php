@@ -56,24 +56,133 @@ div.entete{
 /* CSS index (HP) */
 .image-fond{
     width: 100%;
+    
 }
 h1{
     font-family: 'Anton', sans-serif;
-    font-size: 21px;
+    font-size: 30px;
+    color: rgb(114, 71, 51);
     
 }
 
 .test{
     display: flex;
     position: absolute; 
-    margin: 20% 30%;
+    margin: 20% 22%;
     white-space: nowrap;
-    text-shadow: 1px 1px white;
-    background-color: white;   
+    text-shadow: 1px 1px white;  
 }
 .cta-hp{
     position: absolute;
     display: flex;
     margin: 32% 44%;
     width: 10%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+}
+.cta-hp a{
+    text-decoration: none;
+    color: black;
+}
+.cta-hp:hover{
+    background-color: #C1B196;
+}
+.cta-hp a:hover{
+    color: white;
+}
+.presentation{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.presentation h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(114, 71, 51);
+}
+.presentation p{
+    font-family: 'Roboto', sans-serif;
+}
+.matos{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.matos img{
+    width: 150px;
+}
+.matos-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.matos p{
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+}
+.matos h2{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(114, 71, 51);
+}
+.matos-detail div{
+    border: 3px solid #C1B196;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.matos-kayak h3{
+    padding-top: 33px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(173, 82, 40);
+}
+.matos-kayakd h3{
+    padding-top: 55px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(173, 82, 40);
+}
+.matos-paddle h3{
+    font-family: 'Anton', sans-serif;
+    color: rgb(173, 82, 40);
+}
+.emplacement-style{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.emplacement-style iframe{
+    width: 350px;
+    height: 350px;
+}
+.emplacement{
+    margin: 70px 120px 0px 120px;   
+}
+.emplacement h2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(173, 82, 40);
+}
+.emplacement h3{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(114, 71, 51);
+}
+.emplacement-style div{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #C1B196;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.emplacement-style p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }

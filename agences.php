@@ -1,5 +1,23 @@
-<?php 
-include("./header-footer/header.php");
-include("./header-footer/footer.php");
+<?php include("./header-footer/header.php"); ?>
 
-?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php include("./header-footer/footer.php"); ?>
