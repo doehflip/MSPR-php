@@ -8,12 +8,12 @@
             </div>
             <div class="droite">
                 <h3>Nous contacter</h3>
-                <div class="palavas">
+                <div class="palavas_footer">
                     <p><span>Palavas-les-Flots<span></p>
                     <p> Accès parking Rive droite, Maison de la Mer</p>
                     <p>04 34 40 50 60</p>
                 </div>
-                <div class="carnon">
+                <div class="carnon_footer">
                     <p><span>Carnon<span></p>
                     <p>Accès parking Grand Travers, à côté de la Plagette paillote</p>
                     <p>04 67 10 20 30</p>

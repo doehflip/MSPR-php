@@ -12,6 +12,19 @@
 </head>
 <script type="javascript" src="./css-js/script.js"></script>
 <body>
-    
-</body>
-</html>
+    <div class="entete">
+        <div class="logo">
+            <img src="./images/kayak.png" alt="">
+            <p>Camargues Nautismes</p>
+        </div>
+        <div class="liens">
+            <nav class="navi">
+                <ul>
+                    <li><a href="./index.php">Accueil</a></li>
+                    <li><a href="./equipement.php">Equipements</a></li>
+                    <li><a href="./agences.php">Agences</a></li>
+                    <li><a href="./demande-reserv.php">Réserver</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
